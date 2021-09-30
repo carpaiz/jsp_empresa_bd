@@ -33,7 +33,7 @@
                <label for="lbl_id" ><b>ID</b></label>
                 <input type="text" name="txt_id" id="txt_id" class="form-control" value="0"  readonly> 
                 <label for="lbl_codigo" ><b>Codigo</b></label>
-                <input type="text" name="txt_codigo" id="txt_codigo" class="form-control" placeholder="Ejemplo: E001" required>
+                <input type="text" name="txt_codigo" id="txt_codigo" class="form-control" placeholder="Ejemplo: E001" pattern="[E]{1}[0-9]{3}" required>
                 <label for="lbl_nombres" ><b>Nombres</b></label>
                 <input type="text" name="txt_nombres" id="txt_nombres" class="form-control" placeholder="Ejemplo: Nombre1 Nombre2" required>
                 <label for="lbl_apellidos" ><b>Apellidos</b></label>
